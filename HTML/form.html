@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<link rel="stylesheet" href="CHO.css">
+<style>
+    body {
+    background: linear-gradient(to right, rgb(67, 41, 211),burlywood, burlywood, burlywood, burlywood, burlywood, rgb(67, 41, 211));
+    }
+  
+#kit { 
+  position: relative;
+  left: 50px;
+	color: blue;
+	background-color: white;
+	border: 10px solid darkslateblue;
+	border-radius: 50px;
+	text-align: center;
+	border-width: 5px;
+	background-size: 300px;
+	font-family: algerian;
+	font-size: 23px;
+	width: 400px;
+	text-shadow:2px 2px navy ;
+}
+nav{
+      padding-top: 5px;
+      position: absolute;
+      left: 150px;
+      margin: 150px;
+      margin-bottom: 20px;
+    }
+fieldset {
+  background-color: #d4d1d1;
+}
+
+legend {
+  background-color:none;
+  color: none;
+  padding: 10px 100px;
+}
+
+
+</style>
+
+<div class="up">
+  <div class="navimg">
+<img src="C:/Users/User pc/Desktop/Project2/img/tch.jpg" style="height: 80px; width: 70px; position: absolute; right: 1200px;"></img>
+<img src="C:/Users/User pc/Desktop/Project2/img/nom.jpg" style="height: 30px; width: 70px; position: absolute; left: 220px; top: 55px;"></img>   
+  </div>
+<div class="fig">
+
+  <li><div class="dropdown" >
+    <button class="dropbtn"><a href="CHOinvscod.html">Home</a></button>
+  </div>
+</li>
+
+
+  <li><div class="dropdown" >
+    <button class="dropbtn">About</button>
+    <div class="dropdown-content">
+      <a href="about.html">History</a>
+      <a href="govboard.html">Governing Board</a>
+      <a href="Principal.html">Principal’s Message</a>
+      <a href="anthem.html">Anthem/Mission/Vision</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+  </div>
+</li>
+
+<li><div class="dropdown" >
+  <button class="dropbtn">Academics/Non-Academics</button>
+  <div class="dropdown-content">
+    <a href="curricullum.html">Academic-Curricullum</a>
+    <a href="extra curricullum.html">Co-Curricullum</a>
+    <a href="#">School-Calender</a>
+    <a href="#">List-Of-Books</a>
+    <a href="religios.html">Religious</a>
+
+  </div>
+</div>
+</li>
+
+    <li><div class="dropdown" >
+  <button class="dropbtn">Admission/Payment</button>
+  <div class="dropdown-content">
+    <a href="contact.html">Admission Process</a>
+    <a href="fees.html">Fees/Payment</a>
+  </div>
+</div>
+</li>
+
+<li><div class="dropdown" >
+  <button class="dropbtn">Login Portal</button>
+  <div class="dropdown-content">
+    <a href="portal.html">Parent Portal</a>
+    <a href="portal.html">Teachers Portal</a>
+  </div>
+</div>
+</li>
+</div>
+</div>
+
+<button id="prev">Previous</button>
+<button id="next">Next</button>
+
+
+
+  <nav>
+    <fieldset>
+  <legend><h2><i><div id="kit"><big>ADMISSION FORM</big></div></i></h2></legend>
+	<h4 style="color: red; text-align: center;" >*Note:You are expected to fill this form as written <br>in your birth certificate or international passport*</h4>
+ <legend ><h4>
+
+<form action="fees.html" method="get" >
+  <h3>Firstname<span style="color: red;">*</span></h3><br><input type="text" name="firstname" placeholder="Enter Your Firstname" style="height:30px; width:350px;">
+  
+  <h3>Lastname<span style="color: red;">*</span></h3><br><input type="text" name="lastname" placeholder="Enter Your Lastname" style="height:30px; width:350px;">	
+  
+  <h3>Middlename<span style="color: red;">*</span></h3><br><input type="text" name="middlename" placeholder="Enter Your Lastname"  style="height:30px; width:350px;">
+	
+  <h3>Amount(NGN)<span style="color: red;">*</span></h3><br><input type="number" name="Amount" value="5000" min="5000" max="5000" style="height:30px; width:200px;">	
+  
+  <h3>Date of birth<span style="color: red;">*</span></h3><br><input type="date" name="date" style="height:30px; width:150px;">
+  <h3 style=" position: relative; left: 200px; top: -115px;">Country of Origin<span style="color: red;">*</span><br><br><br>
+<select name="country" id="country" style="height:30px; width:150px;">
+<option value="choose">Choose</option>
+<option value="amrics">America</option>
+<option value="amrics">Aisa</option>
+<option value="amrics">poland</option>
+<option value="amrics">forier</option>
+<option value="amrics">Nigeria</option>
+<option value="amrics">kenya</option><br><br>
+</select>
+<h4 style="color: red; text-align: center; position: absolute; margin-left: auto; top: 1250px; display: inline-flex;" >
+  *Note:</h4>JSS1 Students must be atleast<br>10 years of age as at september<br>in the application year</h4>
+<h3>L.G Area<span style="color: red;">*</span></h3><br>
+<select name="area" id="area" style="height:30px; width:150px;">
+<option value="choose">-Choose an option-</option>
+<option value="amrics">America</option>
+<option value="amrics">Aisa</option>
+<option value="amrics">poland</option>
+<option value="amrics">forier</option>
+<option value="amrics">Nigeria</option>
+<option value="amrics">kenya</option><br>
+</select>
+
+<h3 style=" position: relative; left: 200px; top: -115px;">Nationality<span style="color: red;">*</span><br><br><br>
+  <select name="nation" id="nation" style="height:30px; width:150px;">
+  <option value="choose">-Choose an option-</option>
+  <option value="amrics">America</option>
+  <option value="amrics">Aisa</option>
+  <option value="amrics">poland</option>
+  <option value="amrics">forier</option>
+  <option value="amrics">Nigeria</option>
+  <option value="amrics">kenya</option><br><br>
+  </select>
+  
+    <h3>State of Origin<span style="color: red;">*</span></h3><br><input type="text" name="origin" style="height:30px; width:150px;">
+  
+    <h3 style="position: relative; left: 200px; top: -113px;">Passport<span style="color: red;">*</span><br><br><input type="file" name="image" style="height:50px; width:200px;"><br>Upload your Passport Here</h3>
+  
+    <h3>Religion<span style="color: red;">*</span></h3>
+  <input type="radio" name="religion" value="islam" checked>Islam<br>
+  <input type="radio" name="religion" value="cristainity">Cristainity<br>
+  <input type="radio" name="religion" value="others">Others<br></h3>
+  
+  <h3 style="position: relative; left: 200px; top: -122px;">Sex<span style="color: red;">*</span><br><br>
+    <input type="radio" name="gender" value="Male" checked>Male<br>
+    <input type="radio" name="gender" value="Male">Female<br>
+    <input type="radio" name="gender" value="Male">Others</h3>
+ <h3>Previous School Atended<span style="color: red;">*</span></h3><br><input type="text" name="attdschool" placeholder="Enter Your Previous School"  style="height:30px; width:400px;">
+ 
+ <h3>Attestation<span style="color: red;">*</span><h4 style="color: rgb(9, 87, 16)">I testify that my child(ren) will abide to the rules and regulation of the school</h4></h3><br>
+ <input type="checkbox" id="appn">
+ <label for="appn"><h4 style="color: red"><!--strong >I agreed that all the informations i have written are correlated to my real profile. I also to obey the principl, vice-proncipal, teaching and non-teaching staff and other school authority </strong--></h4> </label>
+    <h3 style=" color: black; text-align: start; font-family: Arial, Helvetica, sans-serif;">Parent/Guardian Information:<br> 
+  </h4>
+  <h3>Name of Parent/Guardian<span style="color: red;">*</span></h3><br><input type="text" name="Firstname" placeholder="Parent's Fullname" style="height:40px; width:150px;">
+  
+  <h3 style=" position: relative; left: 240px; top: -122px;">Parent/Guardian Working Class<span style="color: red;">*</span><br><br><br>
+    <select name="nation" id="nation" style="height:40px; width:150px;">
+    <option value="choose">-Choose an Option-</option>
+    <option value="amrics">Enterpreneur</option>
+    <option value="amrics">Artisians</option>
+    <option value="amrics">Trader</option>
+    <option value="amrics">Teacher</option>
+    <option value="amrics">Company Worker</option>
+    <option value="amrics">kenya</option><br><br>
+    </select>
+    <h3>Email Address<span style="color: red;">*</span></h3><br><input type="email" name="email" placeholder="Parent's Email Address" style="height:30px; width:400px;"><br>
+    <h3>Parent/Gaurdian's Phone Number<span style="color: red;">*</span></h3><br><input type="text" name="telephone" placeholder="Parent's Phone Number" style="height:30px; width:400px;"><br>
+    
+    <h3>Office Address<span style="color: red;">*</span></h3><br>
+    <textarea rows="5" cols="53" placeholder="Parent's Office Address"></textarea>
+
+    <h3>Residential Address<span style="color: red;">*</span></h3><br>
+    <textarea rows="5" cols="53" placeholder="Parent's Residential Address"></textarea><br>
+
+    <h3>Parent/Guardian's Attestation<span style="color: red;">*</span><h4 style="color: rgb(9, 87, 16)">I testify that my child(ren) will abide to the rules and regulation of the school</h4></h3><br>
+    <input type="checkbox" style="color: red"id="appn">
+    <label for="appn"><h4 style="color: red"><!--strong>I agreed that all the informations we have written are correlated to my real profile of my child. I also to obey the principal, vice-proncipal, teaching and non-teaching staff and other school authority </strong--></h4> </label>
+     
+    <h3>Preferred Exam center<span style="color: red;">*</span></h3><br>
+    <select name="nation" id="nation" style="height:40px; width:350px;">
+      <option value="choose">-Choose an Option-</option>
+      <option value="premises">School Premises(Odo-Aarin Ilora Road, Oyo, Oyo State, Nigeria)</option>
+    </select><br>
+    <center><h3>Submit Here<span style="color: red;">*</span></h3></center><br>
+   <input type="submit" value="Submit" style="position: relative; left: 33%; background-color: blue; height: 30px; width: 200px; font-size: larger; font-family: fantasy; color: wheat;">
+  </form>
+</fieldset>
+
+</nav>
+</body>
+</html>

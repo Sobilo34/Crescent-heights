@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contact</title>
+</head>
+<link rel="stylesheet" href="CHO.css">
+	<style>
+body {
+   background-color: whitesmoke;
+   color: rgb(67, 41, 211);
+    }
+
+
+.container {
+  position: absolute;
+  min-height: 100px; 
+  width: 100%;
+  top: auto;
+  z-index: -3;
+}
+/* The Header link Style */
+li {
+    list-style-type: none;
+    display:inline-flex;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    word-spacing: 300px;
+    overflow: right;
+	position: relative;
+	top: 5px;
+}
+.fig{
+	position: absolute;
+    right: 70px;
+}
+a{
+	text-decoration: none;
+    color: white;
+}
+
+a:hover{
+	text-decoration: 2px double wheat;
+    text-shadow: 0.5px 0.5px rgb(62, 73, 85);
+
+
+}
+.dropbtn {
+	background-color: #62b6dd;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	left: -40px;
+	background-color: black;
+	border-style: groove;
+	border-color: #44d8e2;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	align-items: center;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 60;
+}
+  
+  .dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #44d8e2;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #44d8e2}
+
+.up {
+	background: linear-gradient(to bottom, navy, rgb(158, 155, 155));
+	height: 100px;
+	display: flex;
+	overflow: start;
+	flex-direction: row-reverse;
+}
+
+
+.mado {
+  position: absolute;
+  width: 100%;
+}
+.abb{
+	background-color: navy;
+	background-size: 70px;
+}
+p {
+	text-align: left;
+	font-family: sans-serif;
+	color: whitesmoke;
+}
+strong {
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	color: whitesmoke;
+}
+.huy {
+	position: absolute;
+	top: 150px;             
+	left: 600px;
+	color: navy;
+}
+  table{
+  	background-color: red;
+  }
+.mani {
+	position: relative ;
+	overflow:  auto;
+}
+footer {
+	width: 100%;
+	display: table-footer-group;
+}
+#foot1 {
+	flex-wrap: flex-start;
+	background-color: navy;
+	color: white;
+	width: 33.3%;
+}
+#foot2 {
+	flex-wrap: flex-end;
+	background-color: navy;
+	color: white;
+	width: 66.6%;
+}
+#foot3 {
+	flex-wrap: flex-end;
+	background-color: navy;
+	color: white;
+	width: 100%;
+}
+head {
+       background-color: white;
+       color: white;
+       cursor: pointer;
+       display: inline-block;
+       margin-left: auto;
+       transition: all 1.0s linear;
+       display: flex;      
+}
+.underlineA{
+    position: absolute;
+    top: 600px;
+    left: auto;
+    background-color: blue;
+    height: 5px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.header {
+	position: relative;
+	top: 550px;
+	color: black;
+	margin: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.underlineB{
+  position: absolute;
+  top: 1220px;
+  left: 0px;
+  background-color: blue;
+  height: 5px;
+  width: 300px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.sectionK {
+	position: relative;
+	top: 1200px;
+    left: auto;
+	width: 100%;
+}
+#endzone { 
+  background-color: black;
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  left: auto;
+  box-shadow: inset;
+}
+
+</style>
+</head>
+<html>
+<body>
+  <div class="up">
+    <div class="navimg">
+  <img src="/C:/Users/user/Desktop/Project2/img/tch.jpg" style="height: 80px; width: 70px; position: absolute; right: 1200px;"></img>
+<img src="/C:/Users/user/Desktop/Project2/img/nom.jpg" style="height: 30px; width: 70px; position: absolute; left: 220px; top: 55px;"></img>   
+    </div>
+  <div class="fig">
+  
+    <li><div class="dropdown" >
+      <button class="dropbtn"><a href="CHOinvscod.html">Home</a></button>
+    </div>
+  </li>
+
+
+    <li><div class="dropdown" >
+      <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+        <a href="about.html">History</a>
+        <a href="govboard.html">Governing Board</a>
+        <a href="Principal.html">Principal’s Message</a>
+        <a href="anthem.html">Anthem/Mission/Vision</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+    </div>
+  </li>
+
+  <li><div class="dropdown" >
+    <button class="dropbtn">Academics/Non-Academics</button>
+    <div class="dropdown-content">
+      <a href="curricullum.html">Academic-Curricullum</a>
+      <a href="extra curricullum.html">Co-Curricullum</a>
+      <a href="#">School-Calender</a>
+      <a href="#">List-Of-Books</a>
+      <a href="religios.html">Religious</a>
+
+    </div>
+  </div>
+</li>
+
+      <li><div class="dropdown" >
+    <button class="dropbtn">Admission/Payment</button>
+    <div class="dropdown-content">
+      <a href="contact.html">Admission Process</a>
+      <a href="fees.html">Fees/Payment</a>
+    </div>
+  </div>
+</li>
+
+  <li><div class="dropdown" >
+    <button class="dropbtn">Login Portal</button>
+    <div class="dropdown-content">
+      <a href="portal.html">Parent Portal</a>
+      <a href="portal.html">Teachers Portal</a>
+    </div>
+  </div>
+</li>
+</div>
+</div>
+
+<a href="religios.html"><button id="prev">Previous</button></a> 
+<a href="fees.html"><button id="next">Next</button></a>
+
+  
+
+  <div class="container">
+  <img src="/C:/Users/user/Desktop/Project2/img/admisa.jpg" style="width: 100%; height: 300px;"></img>
+  </div>
+
+<h2 style="color: red; position: absolute; top: 590px; left: 50px;">Admission Process</h2>
+<div class="underlineA"></div>
+<div class="header">
+  
+<h3>Congratulation for starting your journey in crescent Heights oyo. We understand how it is for parent to choose the right school for their childrene. THe process oulined below is typically but can be adapted to ensure that you and your child are supported in every step of the way</h3>
+<h4 style="margin-left: 70px;"><b style="font-size: 20px; color: red;">Step 1</b> The registrar will discuss your initial enquiry and provise you with an application formto other years, please contact the admissions office to dicussa siutable date.<h4></h4>
+<h4 style="margin-left: 70px;"><b style="font-size: 20px; color: red;">Step 2</b><br> Complete the spplication form and submit it to nthe admission office.</h4>
+<h4 style="margin-left: 70px;"><b style="font-size: 20px; color: red;">Step 3</b><br> For entry,Make initial contact with the school's admission office.</h4>
+<h4 style="margin-left: 70px;"><b style="font-size: 20px; color: red;">Step 4</b><br><br>Visit the Admission Portal 	<a href="form.html" style="background-color: aqua; height: 200px; width: 800px;">Click Here</a> to download Application form</h4>
+</div>
+<h5>
+  <h2 style="color: red; position: absolute; top: 1200px; left: 50px;">Age Consideration</h2>
+<div class="underlineB"></div>
+<blockquote style="font-family: calibri light; color: black; width: 500px; height: 350px; position: absolute; top: 1170px; left: 40%; font-size: 25px;">
+  <cite><h5 ><i>Heights does not reccomend that student should enter class one before his tenth birthday. If they do they will be tempted to enter university beforesixteen years of age.WE beleive that best time to come to secondary school is the time of adolescence especially for the hostel students kfek fuhfjdf neigfjs fewnfek fhwaewm,fne egj fegekgfjhe fnjkwef nwewen wenegfkg gnrgjk egk hgnek,g hiugngeg ngnkerg hfgneg lghklgj jergkelrg ermgrgjir egkme flgiher tjkth neglie gjghnrgij iklger mregihngrkger begrger g,mgn jeghngrkjergn ugnk, gbgn mg hnklergj ignklrge erg fhil rnaewabjr gwrwejhwjaerhwerw rhewutibenr gueheuifn ge8g9h jtlketii jnegflk egitjekljt ukehlkger g ghejer  lkjdfklasfe kdjgfe fiwhefgnefi elfheajklgfn egfkea htilkt hweijwnkl nekgnerklgne t jtemge gjtgkljgesg;o n ghnerg erng kght keghnergk lhgenklegr neirlgn sergkm serglewjknewfewnewkj wgeu</i> </h5></cite>
+</blockquote>
+
+
+  </div>
+</h5> 
+
+
+<section class="sectionK">
+	
+			
+  <div id="endzone">
+<img src="/C:/Users/user/Desktop/Project2/img/tch.jpg" style="height: 100px; width: 90px; position: absolute; left: 575px; bottom: 105px; "></img>
+<h2 style=" color: wheat; position: absolute; left: 700px; bottom: 75px; font-size: 30px;">Crescent<br>heights,<br>Oyo.</h2>
+<h5 style="color: wheat; position: absolute; left: 70%; top: 200px; ">Copyright,2023.All right reserved by Crescent Heights</h5>
+<h5 style="color: white; position: absolute; left: 43%; top: 195px; font-size: 18px; font-family: Arial">DEVELOPED BY SOBIL</h5>
+
+<a href="contact.html">
+  <button style="width: 100px; 
+    height: 50px; 
+    position: absolute; 
+    top: 100px; 
+    left:auto;
+    margin-left: 90%; 
+    margin-top: -10px; 
+    background-color:  azure;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    z-index: 2;
+    border: 2px solid  azure;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
+    Next
+  </button>
+</a>
+
+<h3 style="position: absolute; top: 0px; left: 13%; color: white; z-index: 20;">Quick Reference</h3>
+<div class="underlineL1"></div>
+<a href="contact.html" style="position: absolute; top: 60px; left: 5%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Addmission</a><br>
+<a href="curricullum.html" style="position: absolute; top: 80px; left: 5%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Curricullum</a><br>
+<a href="calender.html" style="position: absolute; top: 100px; left: 5%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">News</a><br>
+<a href="about.html" style="position: absolute; top: 120px; left: 5%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">School Calender<br>
+<a href="about.html" style="position: absolute; top: 60px; left: 15%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">History</a><br>
+<a href="religios.html" style="position: absolute; top: 80px; left: 15%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Religious</a><br>
+<a href="anthem.html" style="position: absolute; top: 100px; left: 15%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Anthem</a><br>
+<a href="books.html" style="position: absolute; top: 120px; left: 15%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">List of Books</a><br>
+<a href="#" style="position: absolute; top: 60px; left: 24%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Boarding School</a><br>
+<a href="#sectionG" style="position: absolute; top: 80px; left: 25%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">News</a><br>
+<a href="fees.html" style="position: absolute; top: 100px; left: 25%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Payment</a><br>
+<a href="gallery.html" style="position: absolute; top: 120px; left: 25%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Gallery</a>
+
+
+<h3 style="position: absolute; top: 130px; left: 15%; color: white; z-index: 20;">Address</h3>
+<div class="underlineL2"></div>
+<address style="position: absolute; top: 185px; left: 5%; color: wheat;">
+Crescent Heights New site,<br>
+Opposite Cheif Imam House,Odo-Aarin,Ilora,Oyo,Oyo State,<br>
+Nigeria.
+</address>
+</div>
+</section>
+</body>
+</html>             
+
+</html>

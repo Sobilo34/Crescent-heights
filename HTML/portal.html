@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Login</title>
+</head>
+<link rel="stylesheet" type="text/css" href="CHO.css">
+<style>
+
+    .legalt{
+        background-color: aliceblue;
+        height:500px;
+        width: 300px;
+        padding: 5px 30px ;
+        position: absolute;
+        top: 120px;
+        left: 38%;
+        border-radius: 3%;
+    }
+
+    #prev {
+  width: 100px; 
+  height: 50px; 
+  position: absolute; 
+  top: 150px; 
+  left:auto;
+  margin-left: 3%; 
+  margin-top: auto; 
+  background-color: rgb(54, 137, 231);
+  color: azure;
+  text-align: center;
+  font-size: larger;
+  z-index: 2;
+  border: 2px solid rgb(54, 137, 231);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#next {
+  width: 100px; 
+  height: 50px; 
+  position: absolute; 
+  top: 150px; 
+  left:auto;
+  margin-left: 90%; 
+  margin-top: auto; 
+  background-color: rgb(54, 137, 231);
+  color: azure;
+  text-align: center;
+  font-size: larger;
+  z-index: 2;
+  border: 2px solid rgb(54, 137, 231);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+<body>
+  <div class="up">
+    <div class="navimg">
+  <img src="/C:/Users/user/Desktop/Project2/img/tch.jpg" style="height: 80px; width: 70px; position: absolute; right: 1200px;"></img>
+<img src="/C:/Users/user/Desktop/Project2/img/nom.jpg" style="height: 30px; width: 70px; position: absolute; left: 220px; top: 55px;"></img>   
+    </div>
+  <div class="fig">
+  
+    <li><div class="dropdown" >
+      <button class="dropbtn"><a href="CHOinvscod.html">Home</a></button>
+    </div>
+  </li>
+
+
+    <li><div class="dropdown" >
+      <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+        <a href="about.html">History</a>
+        <a href="govboard.html">Governing Board</a>
+        <a href="Principal.html">Principal’s Message</a>
+        <a href="anthem.html">Anthem/Mission/Vision</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+    </div>
+  </li>
+
+  <li><div class="dropdown" >
+    <button class="dropbtn">Academics/Non-Academics</button>
+    <div class="dropdown-content">
+      <a href="curricullum.html">Academic-Curricullum</a>
+      <a href="extra curricullum.html">Co-Curricullum</a>
+      <a href="#">School-Calender</a>
+      <a href="#">List-Of-Books</a>
+      <a href="religios.html">Religious</a>
+
+    </div>
+  </div>
+</li>
+
+      <li><div class="dropdown" >
+    <button class="dropbtn">Admission/Payment</button>
+    <div class="dropdown-content">
+      <a href="contact.html">Admission Process</a>
+      <a href="fees.html">Fees/Payment</a>
+    </div>
+  </div>
+</li>
+
+  <li><div class="dropdown" >
+    <button class="dropbtn">Login Portal</button>
+    <div class="dropdown-content">
+      <a href="portal.html">Parent Portal</a>
+      <a href="portal.html">Teachers Portal</a>
+    </div>
+  </div>
+</li>
+</div>
+</div>
+<a href="fees.html"><button id="prev">Previous</button></a> 
+<a href="portal.html"><button id="next">Next</button></a>
+
+      <img src="/C:/Users/user/Desktop/Project2/img/tportal.jpg" style="height: 100%; width: 100%; position: fixed; top: 10px; left: auto; z-index: -1;"></img>
+
+    <div class="legalt">
+        <form method="get" action="#">
+            <img src="/C:/Users/user/Desktop/Project2/img/tch.jpg" style="height: 80px; width: 70px; margin-top: 15px; margin-left: 33%;"></img>
+            <h3 style=" text-align: center; font-family: ;">Crescent Heights</h3>
+            <h4>Fullname<span style="color: red;">*</span><br><br><input type="text"  name="username" style="height:30px; width:200px;">
+            <h4>Email<span style="color: red;">*</span><br><br><input type="email"  name="email" style="height: 30px; width:200px;"> 
+            <h4>Password<span style="color: red;">*</span><br><br><input type="password"  name="password" style="height: 30px; width:200px;"><br><br><br>   
+            <input type="submit" value="Login" style="position: relative; left: 33%; background-color: navy; border: 2px solid navy; border-radius: 5px; height: 30px; width: 70px; font-size: larger; font-family: fantasy; color: wheat;">
+        </form>
+    </div>
+</body>
+</html>

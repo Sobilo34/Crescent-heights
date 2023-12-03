@@ -1,0 +1,644 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="CHO.css">
+</head>
+
+
+<style>
+  *{
+    height: 50px;
+  }
+    body{
+        background-color: whitesmoke;
+    }
+
+    .academics{
+        margin-left: 70px;
+        position: relative;
+        top: -200px;
+        left: -20px;
+
+    }
+
+    img{
+        border-radius: 7px;
+    }
+    img:hover{
+      height: 255px;
+      width: 255px;
+      border-radius: 7px;
+      position: relative;
+    }
+    .part1:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 0px; 
+        top: 240px;
+        border-radius: 7px;
+        overflow: auto;
+
+    }
+    .part2:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 20%; 
+        top: 240px;
+        border-radius: 7px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .part3:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 40%; 
+        top: 240px;
+        border-radius: 7px;
+
+    }
+    .part4:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 60%; 
+        top: 240px;
+        border-radius: 7px;
+
+    }
+    .part5:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 80%; 
+        top: 240px;
+        border-radius: 7px;
+
+    }
+    .part6:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 0px; 
+        top: 495px;
+        border-radius: 7px;
+
+    }
+    .part7:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 20%; 
+        top: 495px;
+        border-radius: 7px;
+
+    }
+    .part8:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 40%; 
+        top: 495px;
+        border-radius: 7px;
+
+    }
+    .part9:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 60%; 
+        top: 495px;
+        border-radius: 7px;
+
+    }
+
+    .part10:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 80%; 
+        top: 495px;
+        border-radius: 7px;
+
+    }
+
+    .part11:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 0%; 
+        top: 750px;
+        border-radius: 7px;
+
+    }
+
+    .part12:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 20%; 
+        top: 750px;
+        border-radius: 7px;
+
+    }
+
+    .part13:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 40%; 
+        top: 750px;
+        border-radius: 7px;
+
+    }
+
+    .part14:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 60%; 
+        top: 750px;
+        border-radius: 7px;
+
+    }
+    .part15:hover #overlay {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 80%; 
+        top: 750px;
+        border-radius: 7px;
+
+    }
+    #overlay{
+      background-color: none;
+      opacity: 0.5;
+      height: 250px;
+      width: 250px;
+ }
+
+ .event{
+        padding-left: 200px;
+        position: inherit;
+        top: -3000px;
+        left: 20px;
+        padding: 50px;
+
+    }
+
+ .partA:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 2%; 
+        top: 1240px;
+        border-radius: 7px;
+
+    }
+    .partB:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 21%; 
+        top: 1240px;
+        border-radius: 7px;
+    }
+    .partC:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 40%; 
+        top: 1240px;
+        border-radius: 7px;
+
+    }
+    .partD:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 59%; 
+        top: 1240px;
+        border-radius: 7px;
+
+    }
+    .partE:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 78%; 
+        top: 1240px;
+        border-radius: 7px;
+
+    }
+    .partF:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 2%; 
+        top: 1495px;
+        border-radius: 7px;
+
+    }
+    .partG:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 21%; 
+        top: 1495px;
+        border-radius: 7px;
+
+    }
+    .partH:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 40%; 
+        top: 1495px;
+        border-radius: 7px;
+
+    }
+    .partI:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 59%; 
+        top: 1495px;
+        border-radius: 7px;
+
+    }
+
+    .partJ:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 78%; 
+        top: 1495px;
+        border-radius: 7px;
+
+    }
+
+    .partK:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 2%; 
+        top: 1750px;
+        border-radius: 7px;
+
+    }
+
+    .partL:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 21%; 
+        top: 1750px;
+        border-radius: 7px;
+
+    }
+
+    .partM:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 40%; 
+        top: 1750px;
+        border-radius: 7px;
+
+    }
+
+    .partN:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 59%; 
+        top: 1750px;
+        border-radius: 7px;
+
+    }
+    .partO:hover #overlay2 {
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        position: absolute; 
+        left: 78%; 
+        top: 1750px;
+        border-radius: 7px;
+
+    }
+
+    #overlay2{
+      background-color: none;
+      opacity: 0.5;
+      height: 250px;
+      width: 250px;
+ }
+
+ img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+ .sectionK {
+	position: absolute;
+	top: 2200px;
+  left: 0px;
+	width: 100%;
+}
+#endzone { 
+  background-color: black;
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  box-shadow: inset;
+}
+</style>
+<body>
+
+  <a href="anthem.html"><button id="prev">Previous</button></a> 
+  <a href="curricullum.html"><button id="next">Next</button></a>
+
+    
+    <div class="up">
+        <img src="/C:/Users/user/Desktop/Project2/img/tch.jpg" style="height: 80px; width: 70px; position: absolute; right: 1200px;"></img>
+        <img src="/C:/Users/user/Desktop/Project2/img/nom.jpg" style="height: 30px; width: 70px; position: absolute; left: 220px; top: 55px;"></img>   
+  
+        <div class="fig">
+  
+          <li><div class="dropdown" >
+            <button class="dropbtn"><a href="CHOinvscod.html">Home</a></button>
+          </div>
+        </li>
+      
+      
+          <li><div class="dropdown" >
+            <button class="dropbtn">About</button>
+            <div class="dropdown-content">
+              <a href="about.html">History</a>
+              <a href="govboard.html">Governing Board</a>
+              <a href="Principal.html">Principal’s Message</a>
+              <a href="anthem.html">Anthem/Mission/Vision</a>
+              <a href="gallery.html">Gallery</a>
+            </div>
+          </div>
+        </li>
+      
+        <li><div class="dropdown" >
+          <button class="dropbtn">Academics/Non-Academics</button>
+          <div class="dropdown-content">
+            <a href="curricullum.html">Academic-Curricullum</a>
+            <a href="extra curricullum.html">Co-Curricullum</a>
+            <a href="#">School-Calender</a>
+            <a href="#">List-Of-Books</a>
+            <a href="religios.html">Religious</a>
+      
+          </div>
+        </div>
+      </li>
+      
+            <li><div class="dropdown" >
+          <button class="dropbtn">Admission/Payment</button>
+          <div class="dropdown-content">
+            <a href="contact.html">Admission Process</a>
+            <a href="fees.html">Fees/Payment</a>
+          </div>
+        </div>
+      </li>
+      
+        <li><div class="dropdown" >
+          <button class="dropbtn">Login Portal</button>
+          <div class="dropdown-content">
+            <a href="portal.html">Parent Portal</a>
+            <a href="portal.html">Teachers Portal</a>
+          </div>
+        </div>
+      </li>
+      </div>
+      </div>
+      
+      <div style="margin-top: 200px;">
+<h1 style="text-align: center;">Academics</h1>
+<div class="academics">
+  <div class="part1"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 0%; top: 240px;">
+    <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part2"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 20%; top: 240px;">
+      <div id="overlay">
+        <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+          <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+      </div>
+    </div>
+    <div class="part3"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 40%; top: 240px;"> 
+      <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part4"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 60%; top: 240px;"> 
+      <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part5"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 80%; top: 240px;"> 
+      <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part6"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 0%; top: 495px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part7"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 20%; top: 495px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part8"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 40%; top: 495px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part9"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 60%; top: 495px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part10"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 80%; top: 495px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part11"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 0%; top: 750px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part12"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 20%; top: 750px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part13"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 40%; top: 750px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part14"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 60%; top: 750px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+    <div class="part15"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 80%; top: 750px;"> <div id="overlay">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div>
+  </div>
+</div>
+
+
+
+<h1 style="text-align: center; position: absolute; top: 1100px; left: 40%;">Excursion & Events</h1>
+<div class="event">
+  <div class="partA"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 2%; top: 1240px;"> 
+    <div id="overlay2">
+    <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+      <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+  </div>
+</div>
+    <div class="partB"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 21%; top: 1240px;">  <div class="partA"><img src="pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 2%; top: 1240px;"> 
+    <div id="overlay2">
+    <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+      <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+  </div></div>
+    <div class="partC"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 40%; top: 1240px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partD"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 59%; top: 1240px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partE"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 78%; top: 1240px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partF"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 2%; top: 1495px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partG"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 21%; top: 1495px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partH"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 40%; top: 1495px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partI"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 59%; top: 1495px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partJ"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 78%; top: 1495px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partK"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 2%; top: 1750px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partL"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 21%; top: 1750px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partM"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 40%; top: 1750px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partN"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 59%; top: 1750px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+    <div class="partO"><img src="/C:/Users/user/Desktop/Project2/img/pricipal.jpg" alt="1" style="height: 250px; width: 250px; position: absolute; left: 78%; top: 1750px;">    <div id="overlay2">
+      <h3 style=" position: absolute; top:10px; left: 70px; font-family: forte; color: white;">Islamic Learning</h4>
+        <h4 style=" position: absolute; top: 40px; left: 20px; text-align:center; font-family: Arial; color: aliceblue;">Islamic Learning of the school</h4>
+    </div></div>
+</div>
+</div>
+
+
+<section class="sectionK">
+	
+			
+  <div id="endzone">
+<img src="/C:/Users/user/Desktop/Project2/img/tch.jpg" style="height: 100px; width: 90px; position: absolute; left: 575px; bottom: 105px; "></img>
+<h2 style=" color: wheat; position: absolute; left: 700px; bottom: 75px; font-size: 30px;">Crescent<br>heights,<br>Oyo.</h2>
+<h5 style="color: wheat; position: absolute; left: 70%; top: 200px; ">Copyright,2023.All right reserved by Crescent Heights</h5>
+<h5 style="color: white; position: absolute; left: 43%; top: 195px; font-size: 18px; font-family: Arial">DEVELOPED BY SOBIL</h5>
+
+
+<h3 style="position: absolute; top: 0px; left: 13%; color: white; z-index: 20;">Quick Reference</h3>
+<div class="underlineL1"></div>
+<a href="contact.html" style="position: absolute; top: 60px; left: 5%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Addmission</a><br>
+<a href="curricullum.html" style="position: absolute; top: 80px; left: 5%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Curricullum</a><br>
+<a href="calender.html" style="position: absolute; top: 100px; left: 5%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">News</a><br>
+<a href="about.html" style="position: absolute; top: 120px; left: 5%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">School Calender<br>
+<a href="about.html" style="position: absolute; top: 60px; left: 15%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">History</a><br>
+<a href="religios.html" style="position: absolute; top: 80px; left: 15%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Religious</a><br>
+<a href="anthem.html" style="position: absolute; top: 100px; left: 15%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Anthem</a><br>
+<a href="books.html" style="position: absolute; top: 120px; left: 15%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">List of Books</a><br>
+<a href="#" style="position: absolute; top: 60px; left: 24%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Boarding School</a><br>
+<a href="#sectionG" style="position: absolute; top: 80px; left: 25%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">News</a><br>
+<a href="fees.html" style="position: absolute; top: 100px; left: 25%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Payment</a><br>
+<a href="gallery.html" style="position: absolute; top: 120px; left: 25%; text-decoration: underline; font-size: 14px; color: wheat; z-index: 10;">Gallery</a>
+
+
+<h3 style="position: absolute; top: 130px; left: 15%; color: white; z-index: 20;">Address</h3>
+<div class="underlineL2"></div>
+<address style="position: absolute; top: 185px; left: 5%; color: wheat;">
+Crescent Heights New site,<br>
+Opposite Cheif Imam House,Odo-Aarin,Ilora,Oyo,Oyo State,<br>
+Nigeria.
+</address>
+</div>
+</section>
+</body>
+</html>
